@@ -5,3 +5,166 @@
 	width: 1170px;
 	margin: 0 auto;
 }
+.icons{
+	background: url(../img/icons-sprite.png) no-repeat 0 0;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+}
+
+header{
+	height: 84px;
+	position: relative;
+	border-bottom: 2px solid black;
+}
+
+header a.logo{
+	display: block;
+	float: left;
+	width: 105px;
+	height: 50px;
+	overflow: hidden;
+	margin: 15px;
+}
+
+header nav {
+	float: left;
+}
+
+header nav > ul.menu{
+	float: left;
+	padding:0 25px 0 100px; 
+}
+
+header nav > ul.menu > li{
+	display: inline-block;
+	line-height: 84px;
+	height: 84px;
+	margin-right: 35px;
+	position: relative;
+}
+
+header nav > ul.menu > li:last-child{
+	margin-right: 0;
+}
+
+header nav > ul.menu > li > a{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	height: 65px;
+}
+
+header nav > ul.menu > li:hover > a{
+	border-bottom: 2px solid black;
+}
+
+header nav > ul.menu > li:hover > ul.submenu{
+	display: block;
+}
+
+header nav > ul.menu > li > ul.submenu{
+	position: absolute;
+	width: 255px;
+	top: 84px;
+	left: 0;
+	display: none;
+	background: black;
+	opacity: 0.9;
+	padding: 10px 20px 20px 20px;
+}
+
+header nav > ul.menu > li > ul.submenu > li {
+	height: 42px;
+	line-height: 42px;
+}
+
+header nav > ul.menu > li > ul.submenu > li > a{
+	color: white;
+	line-height: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+header nav ul.menu > li > ul.submenu > li a:hover{
+	border-bottom: 2px solid white;
+}
+
+header ul.secondary-menu {
+	float: right;
+	margin: 27px 15px 0 0;
+}
+
+header ul.secondary-menu > li {
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+}
+
+header ul.secondary-menu > li .icons {
+	width: 31px;
+	height: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+header ul.secondary-menu > li .icons.search {
+	background-position: 3px 0;
+}
+header ul.secondary-menu > li .icons.fav {
+	background-position: -38px 0;
+}
+header ul.secondary-menu > li .icons.profile {
+	background-position: -77px 0;
+}
+header ul.secondary-menu > li .icons.cart {
+	background-position: -116px 0;
+}
+
+header ul.secondary-menu > li .search-block{
+	background-color: transparent;
+    border: 0px solid;
+	width: 373px;
+	left: -340px;
+	top: 0;
+	height: 268px;
+	position: absolute;
+	display: none;
+}
+
+header ul.secondary-menu > li .search-block .box-bg{
+	background: black;
+	opacity: 0.9;
+	padding: 20px;
+}
+
+header ul.secondary-menu > li:hover .search-block{
+	display: block;
+}
+
+header ul.secondary-menu > li .search-block input{
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+	outline: none!important;
+	border: none;
+	padding-left: 40px;
+	border: 1px solid black;
+}
+
+header ul.secondary-menu > li .search-block .suggestions{
+	color: white;
+}
+
+header ul.secondary-menu > li .search-block .suggestions ul{
+	padding-left: 18px;
+}
+
+header ul.secondary-menu > li .search-block .suggestions ul li a{
+	color: white;
+}
