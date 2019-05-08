@@ -1,3 +1,7 @@
+/***********************************************************************
+****************************** MISC ************************************
+***********************************************************************/
+
 .clear{
 	clear: both;
 }
@@ -8,6 +12,10 @@
 .icons{
 	background: url(../img/icons-sprite.png) no-repeat 0 0;
 }
+
+/***********************************************************************
+***************************** HEADER ***********************************
+***********************************************************************/
 
 body{
 	font-family: "Open Sans", sans-serif;
@@ -126,6 +134,10 @@ header ul.secondary-menu > li .icons.cart {
 	background-position: -116px 0;
 }
 
+header ul.secondary-menu > li .icons.cart {
+	background-position: -116px 0;
+}
+
 header ul.secondary-menu > li .search-block{
 	background-color: transparent;
     border: 0px solid;
@@ -135,6 +147,25 @@ header ul.secondary-menu > li .search-block{
 	height: 268px;
 	position: absolute;
 	display: none;
+}
+
+header ul.secondary-menu > li .search-block .icons.search {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-position: -530px 0;
+}
+
+header ul.secondary-menu > li .search-block .icons.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-weight: bold;
+	line-height: 32px;
+	text-align: center;
+	text-indent: 0;
+	font-size: 18px;
+	background: none;
 }
 
 header ul.secondary-menu > li .search-block .box-bg{
@@ -155,16 +186,286 @@ header ul.secondary-menu > li .search-block input{
 	border: none;
 	padding-left: 40px;
 	border: 1px solid black;
+	font-size: 15px;
+	color: black;
+}
+
+header ul.secondary-menu > li .search-block input::placeholder{
+  color: #969696;
 }
 
 header ul.secondary-menu > li .search-block .suggestions{
 	color: white;
+	font-size: 13px;
+}
+
+header ul.secondary-menu > li .search-block .suggestions span{
+	text-transform: uppercase;
+	opacity: 0.5;
+	display: block;
+	margin-bottom: 10px;
 }
 
 header ul.secondary-menu > li .search-block .suggestions ul{
 	padding-left: 18px;
 }
 
+header ul.secondary-menu > li .search-block .suggestions ul li {
+	line-height:35px;
+}
+
 header ul.secondary-menu > li .search-block .suggestions ul li a{
 	color: white;
+}
+
+header ul.secondary-menu > li .search-block .suggestions ul li a:hover{
+	border-bottom: 1px solid white;
+}
+
+/***********************************************************************
+**************************** NEWSLETTER ********************************
+***********************************************************************/
+
+#newsletter {
+	height: 235px;
+	background: #f3ede2;
+}
+
+#newsletter .newsletter-text-block{
+	width: 400px;
+	float: left;
+	padding: 57px 0;
+}
+
+#newsletter .newsletter-text-block h3{
+	font-family: "Playfair Display", sans-serif;
+	font-size: 30px;
+	letter-spacing: 1.1px;
+	color: #222222;
+	margin-bottom: 15px;
+}
+#newsletter .newsletter-text-block p{
+	font-size: 15px;
+	letter-spacing: -0.1px;
+	color: #222222;
+	line-height: 25px;
+}
+
+#newsletter #signup-newsletter{
+	width: 585px;
+	float: right;
+	margin-top: 100px
+}
+
+#newsletter #signup-newsletter input[type=text]{
+	line-height: 40px;
+	width: 400px;
+	height: 40px;
+	outline: none!important;
+	border: none;
+	border: 2px solid black;
+	font-size: 15px;
+	color: black;
+	padding-left: 15px;
+	background: #f3ede2;
+	float: left;
+}
+
+#newsletter #signup-newsletter input[type=text]::placeholder{
+  color: #cccccc;
+}
+
+#newsletter #signup-newsletter input[type=submit]{
+	color: white;
+	width: 170px;
+	background: black;
+	height: 40px;
+	line-height: 33px;
+	border: 2px solid black;
+	font-size: 15px;
+	float: right;
+}
+
+/***********************************************************************
+***************************** ADDRESS **********************************
+***********************************************************************/
+
+#address {
+	height: 580px;
+	background: #f5f5f5;
+	padding: 30px 0 65px;
+}
+
+#address h2{
+	font-family: "Playfair Display", sans-serif;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 1.4px;
+	margin-bottom: 60px;
+	width: 100%;
+}
+#address .address-text-block{
+	width: 300px; 
+	float: left;
+}
+#address .address-text-block h4{
+	font-family: "Playfair Display", sans-serif;
+	font-size: 24px;
+	letter-spacing: 1.4px;
+	margin-bottom: 20px;
+}
+
+#address .address-text-block address, #address .address-text-block .text{
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+
+#address .address-text-block address span, #address .address-text-block .text span{
+	display: block;
+	width: 100%;
+}
+
+#address .address-text-block .text span time{
+	float: right;
+}
+
+
+#address .address-text-block .text a{
+	display: block;
+	width: 100%;
+	border: 2px solid black;
+	height: 40px;
+	line-height: 35px;
+	text-align: center;
+	margin-top: 18px;
+}
+
+#address .map{
+	width: 700px;
+	height: 375px;
+	float: right;
+}
+
+/***********************************************************************
+***************************** FOOTER ***********************************
+***********************************************************************/
+
+footer{
+	height: 560px;
+	background: black;
+	color: white;
+	padding-top: 60px;
+}
+
+footer a{
+	color: white;
+}
+
+footer a.logo-footer{
+	width: 205px;
+	height: 99px;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin:0 85px 0  90px;
+}
+
+footer .footer-text-block{
+	padding: 0 0 60px 0;
+	float: left;
+	width: 780px;
+}
+
+footer .footer-text-block p{
+	width: 500px;
+	height: 30px;
+	line-height: 25px;
+	margin-bottom: 50px;
+}
+
+footer .footer-text-block ul.social{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+footer .footer-text-block ul.social li{
+	display: inline-block;
+}
+
+footer .footer-text-block ul.social li .icons{
+	width: 26px;
+	height: 26px;
+	display: block;
+	margin-right: 20px;
+	text-indent: -9999px;
+}
+
+footer .footer-text-block ul.social li .icon-facebook{
+	background-position: -455px -3px;
+}
+footer .footer-text-block ul.social li .icon-instagram{
+	background-position: -501px -3px;
+}
+
+footer .footer-text-block .submenu{
+	float: left; 
+	margin-right: 60px;
+}
+
+footer .footer-text-block .submenu h5{
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+footer .footer-text-block .submenu ul.payment-method{
+	margin-top: 10px;
+	float: left;
+}
+
+footer .footer-text-block .submenu ul.payment-method li{
+	display: inline-block;
+}
+
+footer .footer-text-block .submenu ul li .icons{
+	width: 44px;
+	height: 26px;
+	display: block;
+	margin-right: 20px;
+}
+
+footer .footer-text-block .submenu ul li .visa{
+	background-position: -151px -3px;
+}
+
+footer .footer-text-block .submenu ul li .mastercard{
+	background-position: -215px -3px;
+}
+
+footer .footer-text-block .submenu ul li .dinner{
+	background-position: -279px -3px;
+}
+
+footer .footer-text-block .submenu ul li .elo{
+	background-position: -343px -3px;
+}
+
+footer .footer-text-block .submenu ul li .ticket{
+	background-position: -403px -3px;
+}
+
+footer .footer-text-block .submenu ul li a{
+	display: block;
+	line-height: 30px;
+}
+
+footer .copyright{
+	width: 100%;
+	text-align: right;
+	font-size: 13px;
+	letter-spacing: -0.7px;
+	border-top: 1px solid white;
+	padding-top: 30px;
 }
