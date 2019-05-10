@@ -21,8 +21,8 @@
 }
 
 .internal-page > .top .description{
-	width: 100%;
-	margin-bottom: 20px;
+	width: 800px;
+	margin:0 auto 20px;
 	font-size: 15px;
 }
 
@@ -95,7 +95,11 @@
 	margin:0 auto 50px;
 }
 
-.internal-page-content.account{}
+.internal-page-content.account ul {
+	border-bottom: 1px solid white;
+	margin-top: 60px;
+}
+
 .internal-page-content.account ul li{
 	margin-bottom: 60px;
 	position: relative;
@@ -121,17 +125,29 @@
 .internal-page-content.account ul li a i.orders{
 	background-position: -70px -34px;
 }
+
 .internal-page-content.account ul li a i.profile{
 	background-position: -136px -34px;
 }
+
 .internal-page-content.account ul li a i.address{
 	background-position: -198px -34px;
 }
+
 .internal-page-content.account ul li a i.wishlist{
 	background-position: 0px -34px;
 }
 
-.internal-page-content.account ul li p{}
+.internal-page-content.account a.logout{
+	display: block;
+	width: 400px;
+	margin: 30px auto 0;
+	background: black;
+	height: 40px;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+}
 
 /***********************************************************************
 ****************************** WHISHLIST *******************************
