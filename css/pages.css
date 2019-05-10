@@ -168,7 +168,10 @@
 }
 
 .internal-page-content.orders .order{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+	width: 100%;
+	float: left;
+	display: block;
 }
 .internal-page-content.orders .order span{
 	display: block;
