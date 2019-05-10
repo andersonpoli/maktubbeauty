@@ -158,3 +158,63 @@
 	width: 100%;
 }
 
+/***********************************************************************
+****************************** ORDERS *******************************
+***********************************************************************/
+
+.internal-page-content.orders{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.internal-page-content.orders .order{
+	margin-bottom: 30px;
+}
+.internal-page-content.orders .order span{
+	display: block;
+}
+
+.internal-page-content.orders .order .order-number{
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.internal-page-content.orders .order .order-date{
+	margin-bottom: 25px;
+}
+
+.internal-page-content.orders .order ul{
+	float: left;
+	width: 100%;
+}
+
+.internal-page-content.orders .order ul li{
+	float: left;
+	width: 100%;
+	margin-bottom: 35px;
+	height: 100px;
+}
+.internal-page-content.orders .order ul li .img-holder{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+.internal-page-content.orders .order ul li a{
+	font-size: 24px;
+	color: #222222;
+	font-family: "Playfair Display", sans-serif;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.internal-page-content.orders .order ul li .delivery-date{
+	margin-bottom: 10px;
+}
+
+.internal-page-content.orders .order ul li a.rate{
+	text-decoration: underline;
+	font-size: 11px;
+	color: #222222;
+	font-family: "Open Sans", sans-serif;
+}
