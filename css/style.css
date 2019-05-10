@@ -149,6 +149,10 @@ header ul.secondary-menu > li .search-block{
 	display: none;
 }
 
+header ul.secondary-menu > li:hover .search-block{
+	display: block;
+}
+
 header ul.secondary-menu > li .search-block .icons.search {
 	position: absolute;
 	top: 5px;
@@ -172,10 +176,6 @@ header ul.secondary-menu > li .search-block .box-bg{
 	background: black;
 	opacity: 0.9;
 	padding: 20px;
-}
-
-header ul.secondary-menu > li:hover .search-block{
-	display: block;
 }
 
 header ul.secondary-menu > li .search-block input{
