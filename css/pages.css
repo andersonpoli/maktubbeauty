@@ -87,5 +87,58 @@
 }
 
 /***********************************************************************
-******************************* PROFILE ********************************
+******************************* ACCOUNT ********************************
 ***********************************************************************/
+
+.internal-page-content.account{
+	width: 800px;
+	margin:0 auto 50px;
+}
+
+.internal-page-content.account{}
+.internal-page-content.account ul li{
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.internal-page-content.account ul li a{
+	font-size: 24px;
+	color: #222222;
+	font-family: "Playfair Display", sans-serif;
+	margin-bottom: 15px;
+	display: block;
+	width: 100%;
+}
+
+.internal-page-content.account ul li a i{
+	position: absolute;
+	width: 65px;
+	height: 55px;
+	left: -80px;
+	top: 0;
+}
+
+.internal-page-content.account ul li a i.orders{
+	background-position: -70px -34px;
+}
+.internal-page-content.account ul li a i.profile{
+	background-position: -136px -34px;
+}
+.internal-page-content.account ul li a i.address{
+	background-position: -198px -34px;
+}
+.internal-page-content.account ul li a i.wishlist{
+	background-position: 0px -34px;
+}
+
+.internal-page-content.account ul li p{}
+
+/***********************************************************************
+****************************** WHISHLIST *******************************
+***********************************************************************/
+
+.internal-page-content.wishlist{
+	margin-top: 50px;
+	width: 100%;
+}
+
