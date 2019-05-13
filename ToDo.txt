@@ -1,0 +1,11 @@
+- Paginas para cortar
+	- dados pessoais
+	- dados pessoais edit
+	- login
+	- cadastro
+	- pagina do produto
+	- home
+
+- Javacript
+
+- Responsivo

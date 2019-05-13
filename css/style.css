@@ -140,6 +140,7 @@ header nav > ul.menu > li > ul.submenu{
 	background: black;
 	opacity: 0.9;
 	padding: 10px 20px 20px 20px;
+	z-index: 2;
 }
 
 header nav > ul.menu > li > ul.submenu > li {
@@ -213,7 +214,7 @@ header ul.secondary-menu > li .search-block .icons.search {
 	position: absolute;
 	top: 5px;
 	left: 5px;
-	background-position: -530px 0;
+	background-position: 3px 0;
 }
 
 header ul.secondary-menu > li .search-block .icons.close {
