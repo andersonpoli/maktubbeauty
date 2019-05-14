@@ -1,10 +1,125 @@
 /***********************************************************************
-**************************** PAGE DEFAULTS *****************************
+******************************** HOME **********************************
 ***********************************************************************/
 
-.internal-page{
-
+.home .home-img{
+	width: 100%;
+	overflow: hidden;
+	height: 500px;
+	margin: 30px 0 60px;
 }
+
+.home .home-img img{
+	height: 500px;
+	width: auto;
+}
+
+.home h2{
+	font-family: "Playfair Display", sans-serif;
+	color: #222222;
+	letter-spacing: 1.4px;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.home .home-categories{
+	background: black;
+	width: 1030px;
+	height: 172px;
+	margin: 0 auto 60px;
+	text-align: center;
+	position: relative;
+}
+
+.home .home-categories:before{
+	content: "";
+	width: 0;
+    height: 0;
+    border-bottom: 172px solid black;
+    border-left: 70px solid transparent;
+    position: absolute;
+    left: -70px;
+    top: 0;
+}
+
+.home .home-categories:after{
+	content: "";
+	width: 0;
+    height: 0;
+    border-top: 172px solid black;
+    border-right: 70px solid transparent;
+    position: absolute;
+    right: -70px;
+    top: 0;
+}
+
+.home .home-categories li{
+	display: inline-block;
+	text-align: center;
+	margin: 0 5px;
+}
+
+.home .home-categories li a{
+	font-family: "Playfair Display", sans-serif;
+	font-size: 60px;
+	letter-spacing: 1.4px;
+	line-height: 80px;
+}
+
+.home .home-categories li a:hover{
+	text-decoration: underline;
+}
+
+.home .home-categories li a.batom{color:#cc5c5c;}
+.home .home-categories li a.gloss{color:#ee4e90;}
+.home .home-categories li a.bronzeador{color:#d5af43;}
+.home .home-categories li a.sombras{color:#5480c1;}
+.home .home-categories li a.delineador{color:#4fb286;}
+.home .home-categories li a.corretivo{color:#e0d0a6;}
+.home .home-categories li a.pigmentos{color:#8d4eb9;}
+
+.home .other-categories{
+	margin-bottom: 20px;
+}
+
+.home .other-categories li{
+	display: inline-block;
+	background: black;
+	width: 370px;
+	height: 140px;
+	margin-right: 25px;
+}
+
+.home .other-categories li:last-child{
+	margin-right: 0;
+}
+
+.home .other-categories li a{
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	height: 140px;
+}
+
+.home .other-categories li a img{
+	float: right;
+}
+
+.home .other-categories li a span{
+	color: white;
+	line-height: 140px;
+	display: block;
+	float: left;
+	font-family: "Playfair Display", sans-serif;
+	letter-spacing: 1.4px;
+	font-size: 30px;
+	padding-left: 40px;
+}
+
+/***********************************************************************
+**************************** PAGE DEFAULTS *****************************
+***********************************************************************/
 
 .internal-page > .top {
 	text-align: center;

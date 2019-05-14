@@ -5,22 +5,29 @@
 .clear{
 	clear: both;
 }
+
 .wrapper{
 	width: 1170px;
 	margin: 0 auto;
 }
+
 .icons{
 	background: url(../img/icons-sprite.png) no-repeat 0 0;
 }
 
 .product-card{
 	display: block;
-	width: 230px;
-	height: 315px;
+	width: 250px;
+	height: 360px;
 	float: left;
-	margin: 0 31px 30px;
+	margin: 0 20px 30px;
 	text-align: center;
 	position: relative;
+	padding: 10px;
+}
+
+.product-card:hover{
+	box-shadow: 0 0 6px rgba(0,0,0,0.4);
 }
 
 .product-card.favorite::before{
@@ -28,18 +35,18 @@
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	right: 0;
-	top: -30px;
+	right: 0px;
+	top: 0px;
 	background: url(../img/icons-sprite.png) no-repeat -530px 0;
 }
 
 .product-card .img-holder{
 	width: 190px;
 	height: 190px;
-	margin:0 auto 30px;
+	margin:20px auto 30px;
 }
 
-.product-card span {
+.product-card span, .product-card a {
 	display: block;
 }
 
