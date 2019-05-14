@@ -1,11 +1,8 @@
 - Paginas para cortar
-	- dados pessoais
-	- dados pessoais edit
-	- login
-	- cadastro
 	- pagina do produto
 	- home
-
-- Javacript
+	- categoria, resultado de busca
+		- filtros
 
 - Responsivo
+- Javacript
